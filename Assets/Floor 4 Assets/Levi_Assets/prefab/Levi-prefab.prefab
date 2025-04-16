@@ -121,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8db2a3ebadbd23459734d28722de005, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ActieCommando: 
+  ActieCommando: action
 --- !u!114 &204596689296787182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -135,9 +135,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isWalkingToInteract: 0
-  LoopCommando: 
+  LoopCommando: walk
   curSpeed: 0
-  loopsnelheid: 0
+  loopsnelheid: 1
 --- !u!95 &6146610354316400859
 Animator:
   serializedVersion: 7

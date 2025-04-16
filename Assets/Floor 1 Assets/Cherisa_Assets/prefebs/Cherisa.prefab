@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 6218078384891551828}
   - component: {fileID: 8739959622868568038}
   - component: {fileID: 1043000552056084130}
+  - component: {fileID: 7743696248737444121}
+  - component: {fileID: 5329447571841344235}
   m_Layer: 0
   m_Name: Cherisa
   m_TagString: Untagged
@@ -75,6 +77,35 @@ MonoBehaviour:
   funtionAvailable: 0
   components: []
   currentactivity: 
+--- !u!114 &7743696248737444121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6489950104623759304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a26f4a22064a10d49b0e05593037d4bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isWalkingToInteract: 0
+  LoopCommando: loop
+  curSpeed: 0
+  loopsnelheid: 1
+--- !u!114 &5329447571841344235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6489950104623759304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8db2a3ebadbd23459734d28722de005, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActieCommando: charge
 --- !u!1 &8081219916930974439
 GameObject:
   m_ObjectHideFlags: 0

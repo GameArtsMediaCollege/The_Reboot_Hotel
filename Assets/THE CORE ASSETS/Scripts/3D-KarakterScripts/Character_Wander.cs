@@ -69,7 +69,7 @@ public class Character_Wander : MonoBehaviour
     {
         manager.funtionAvailable = false;
         agent.speed = loopsnelheid;
-        Vector3 randompoint = (Random.insideUnitSphere * 10) + transform.position;
+        Vector3 randompoint = (Random.insideUnitSphere * 4) + transform.position;
         NavMeshHit hit;
 
         NavMesh.SamplePosition(randompoint, out hit, 100f, NavMesh.AllAreas);

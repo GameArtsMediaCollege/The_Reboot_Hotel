@@ -416,7 +416,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34cbf31e418918443bd3129a3046fbca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 2508596374633822038}
 --- !u!95 &2508596374633822038
 Animator:
   serializedVersion: 7
@@ -799,7 +798,7 @@ GameObject:
   - component: {fileID: 5372687265497746141}
   - component: {fileID: 3243490988607906080}
   - component: {fileID: 2804202083807622162}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: door
   m_TagString: Untagged
   m_Icon: {fileID: 0}

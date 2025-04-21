@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/THE CORE ASSETS/Scenes/Floor 1.unity
+    path: Assets/THE CORE ASSETS/Scenes/floor 1.unity
     guid: 34370550e59644245a0cf11dd43c1d9d
   - enabled: 1
     path: Assets/THE CORE ASSETS/Scenes/Floor 2.unity

@@ -35,7 +35,7 @@ public class Character_Action_Single : MonoBehaviour
 
     private IEnumerator SnigularAction()
     {
-        
+        Debug.Log("ik ben begonnen met de actie uit te voeren");
         animator.SetBool(ActieCommando, true);
         animrunning = true;
         while (animrunning)

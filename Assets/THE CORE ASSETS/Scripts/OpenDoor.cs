@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class OpenDoor : MonoBehaviour
 {
-    public Animator animator; 
+    private Animator animator; 
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -21,6 +21,6 @@ public class OpenDoor : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        animator.SetBool("open", false);
+        animator.SetBool("open", false );
     }
 }
